@@ -23,6 +23,11 @@
 #### * use this command ->  ansible-vault create group_vars/all/pass.yml --vault-password-file vault.pass
 
 #
+## Create Ansible Role  
+
+#### * use this command ->  ansible-galaxy role init ec2_role
+
+#
 ##  Run 
 
 #### * use this command ->  ansible-playbook -i inventory.ini create_ec2.yml --vault-password-file vault.pass
